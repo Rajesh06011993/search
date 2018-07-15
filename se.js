@@ -23,6 +23,7 @@ $(".log").click(()=>{
 
 	     if(yearTrim != null && yearTrim != ""){
            $(".disp").hide();
+           alert("hello");
            getAllData(titlePlus,yearTrim); 	
         	
           }else{
@@ -66,7 +67,7 @@ alert(yearTrim);
 $.ajax({
         type: 'GET',
         dataType: 'json', 
-        url: 'http://www.omdbapi.com/?apikey=aa8f140e&s='+titlePlus+'&y='+yearTrim,
+        url: 'https://www.omdbapi.com/?apikey=aa8f140e&s='+titlePlus+'&y='+yearTrim,
         success: (data) => { // in case of success response
             
             /*console.log(data);*/
