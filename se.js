@@ -23,7 +23,7 @@ $(".log").click(()=>{
 
 	     if(yearTrim != null && yearTrim != ""){
            $(".disp").hide();
-           alert("hello");
+           
            getAllData(titlePlus,yearTrim); 	
         	
           }else{
@@ -62,8 +62,7 @@ $(".log2").click(()=>{
 
 
 let getAllData = (titlePlus,yearTrim) => {
-alert(titlePlus);
-alert(yearTrim);
+
 $.ajax({
         type: 'GET',
         dataType: 'json', 
@@ -72,7 +71,7 @@ $.ajax({
             
             /*console.log(data);*/
             
-        alert("success");
+      
         if(data.Response == "True"){
            $(".results2").show();
              
