@@ -139,7 +139,7 @@ let getAllData2 = (titlePlus) => {
 $.ajax({
         type: 'GET',
         dataType: 'json', 
-        url: 'http://www.omdbapi.com/?apikey=aa8f140e&s='+titlePlus,
+        url: 'https://www.omdbapi.com/?apikey=aa8f140e&s='+titlePlus,
         success: (data) => { // in case of success response
             
             //console.log(data);
@@ -210,7 +210,7 @@ let getAllData3 = (titleIdTrim) => {
 $.ajax({
         type: 'GET',
         dataType: 'json', 
-        url: 'http://www.omdbapi.com/?apikey=aa8f140e&i='+titleIdTrim,
+        url: 'https://www.omdbapi.com/?apikey=aa8f140e&i='+titleIdTrim,
         success: (data) => { // in case of success response
             
             //console.log(data);
