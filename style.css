@@ -1,0 +1,25 @@
+
+.ui-widget-content { border: none; background: none; }
+
+.ui-widget-header { border: none; background: none; }
+
+
+
+.displayInline{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center ;
+}
+
+.back{
+   
+	background-color: #738B91;
+}
+
+.di{
+
+	width: 90vw;
+}
+
+
