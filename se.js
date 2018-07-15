@@ -113,13 +113,13 @@ $.ajax({
         beforeSend: () => { // while request is processing.
 
             // you can use loader here.
-            alert("request is being made. please wait")
+            //alert("request is being made. please wait")
 
         },
         complete: () => {
 
             // what you want to do while request is completed
-            alert("data fetched success")
+            //alert("data fetched success")
 
         },
 
